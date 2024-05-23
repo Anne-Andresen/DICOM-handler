@@ -3,25 +3,25 @@ Converting dicom dose files, structure files and imaging to nifti files
 Folder structure:
 
 ```
-Overall
+Base_path/
 ├── patient1/
-│   ├── CT*.dcm # slice 1
-│   ├── CT*.dcm # slice 2
-│   ├── CT*.dcm # slice 3 
+│   ├── CT_patient1_slice_1.dcm
+│   ├── CT_patient1_slice_2.dcm
+│   ├── CT_patient1_slice_3.dcm
+│   ├── RD_patient1.dcm
+│   └── RS_patient1.dcm
+├── patient2/
+│   ├── CT_patient2_slice_1.dcm
+│   ├── CT_patient2_slice_2.dcm
+│   ├── CT_patient2_slice_3.dcm
+│   ├── RD_patient2.dcm
+│   └── RS_patient2.dcm
+├── patient3/
+│   ├── CT_patient3_slice_1.dcm
+│   ├── CT_patient3_slice_2.dcm
+│   ├── CT_patient3_slice_3.dcm
+│   ├── RD_patient3.dcm
+│   └── RS_patient3.dcm
 
 ```
-# Overall
-- patient1
-  - CT_*.dcm # slice 1
-  - CT_*.dcm # slice 2
-  - CT_*.dcm # slice 3 ## for all slices in CT or MRI scan
-  - RD_*.dcm # dose file
-  - RS_*.dcm # Struct file
-- patient2
-  - CT_*.dcm # slice 1
-  - CT_*.dcm # slice 2
-  - CT_*.dcm # slice 3 ## for all slices in CT or MRI scan
-  - RD_*.dcm # dose file
-  - RS_*.dcm # Struct file
-- patient3
-  - CT_*.dcm # slice 
+
