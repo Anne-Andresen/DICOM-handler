@@ -2,7 +2,14 @@
 Converting dicom dose files, structure files and imaging to nifti files
 Folder structure:
 
+```
+Overall
+├── patient1/
+│   ├── CT*.dcm # slice 1
+│   ├── CT*.dcm # slice 2
+│   ├── CT*.dcm # slice 3 
 
+```
 # Overall
 - patient1
   - CT_*.dcm # slice 1
